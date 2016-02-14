@@ -1,5 +1,5 @@
 {
-  "name": "ServoBlaster.js",
+  "name": "servo-blaster.js",
   "version": "0.1.0",
   "description": "NodeJS library for the ServoBlaster daemon",
   "main": "servoBlaster.js",

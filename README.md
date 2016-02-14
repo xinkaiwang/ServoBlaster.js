@@ -1,4 +1,4 @@
-# ServoBlaster.js
+# servo-blaster.js
 NodeJS library for the ServoBlaster daemon
 
 ## Installation
@@ -14,17 +14,17 @@ FYI, this is the command I typically start my servod
 
 This will give you access to GPIO17/5/6/13/19, and allow you change PWM from 0-100%, instead by 0-12% by default.
 
-Finally install `servoBlaster.js`:
+Finally install `servo-blaster.js`:
 
-    npm install servoBlaster.js
+    npm install servo-blaster.js
 
 ## Usage
 
-    var servoblaster = require('servoBlaster.js');
+    var sb = require('servo-blaster.js');
 
-    servoblaster.setP1Pwm(11, 1 ); # P1-11 (GPIO17) 100% brightness
-    servoblaster.setP1Pwm(29, 0.2 ); # P1-29 (GPIO05) 20% brightness
-    servoblaster.setP1Pwm(29, 0 ); # off
+    sb.setP1Pwm(11, 1 ); # P1-11 (GPIO17) 100% brightness
+    sb.setP1Pwm(29, 0.2 ); # P1-29 (GPIO05) 20% brightness
+    sb.setP1Pwm(29, 0 ); # off
 
 ## Credits
 
