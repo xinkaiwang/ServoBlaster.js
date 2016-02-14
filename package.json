@@ -1,0 +1,27 @@
+{
+  "name": "ServoBlaster.js",
+  "version": "0.1.0",
+  "description": "NodeJS library for the ServoBlaster daemon",
+  "main": "servoBlaster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinkaiwang/ServoBlaster.js.git"
+  },
+  "keywords": [
+    "servod",
+    "PWM",
+    "DMA",
+    "ServoBlaster",
+    "node",
+    "RaspberryPi",
+    "gpio"
+  ],
+  "author": "Xinkai Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinkaiwang/ServoBlaster.js/issues"
+  }
+}
